@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtcPayLibrary", "src\BtcPayLibrary\BtcPayLibrary.csproj", "{7B5666A2-FDFD-4ED9-8C06-8AB149CA1EA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C380EB5F-5145-4134-BBCE-D3F58361E3A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0C821D3F-B5BE-49B3-A92F-535FBB6DACF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTCPayLibrary.UnitTests", "test\BTCPayLibrary.UnitTests\BTCPayLibrary.UnitTests.csproj", "{9B2A9F27-1318-4428-9151-46C2EF62081F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B5666A2-FDFD-4ED9-8C06-8AB149CA1EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5666A2-FDFD-4ED9-8C06-8AB149CA1EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5666A2-FDFD-4ED9-8C06-8AB149CA1EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5666A2-FDFD-4ED9-8C06-8AB149CA1EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B2A9F27-1318-4428-9151-46C2EF62081F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2A9F27-1318-4428-9151-46C2EF62081F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2A9F27-1318-4428-9151-46C2EF62081F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2A9F27-1318-4428-9151-46C2EF62081F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B5666A2-FDFD-4ED9-8C06-8AB149CA1EA5} = {C380EB5F-5145-4134-BBCE-D3F58361E3A6}
+		{9B2A9F27-1318-4428-9151-46C2EF62081F} = {0C821D3F-B5BE-49B3-A92F-535FBB6DACF3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CD42A41-C16C-4B32-A0B9-0A69988C377D}
+	EndGlobalSection
+EndGlobal

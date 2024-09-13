@@ -1,5 +1,6 @@
 ﻿using BtcPayLibrary.BlockBookClient;
 using BtcPayLibrary.BlockBookClient.Models;
+using BtcPayLibrary.BlockBookClient.Tools;
 using NBitcoin;
 
 namespace BtcPayLibrary.BTC

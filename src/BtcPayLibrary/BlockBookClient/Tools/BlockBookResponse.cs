@@ -1,4 +1,4 @@
-﻿namespace BtcPayLibrary.BlockBookClient.Models
+﻿namespace BtcPayLibrary.BlockBookClient.Tools
 {
     public record BlockBookResponse<T>
     {
